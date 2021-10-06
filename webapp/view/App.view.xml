@@ -7,8 +7,11 @@
 	busyIndicatorDelay="0"
 >
 
-<Text text="Purchase order Report1"></Text>
-<Input placeholder="Purchase Order Number1"></Input>
+<Text text="Purchase order Report"></Text>
+<!--Here as you can see value is comming from the JSON Model 
+    As we have set the JSON model /<objectname>/fieldname
+-->
+<Input placeholder="Purchase Order Number"  value="{/poinput/ponumber}"></Input>
 <Button text="Click" press="onPress"></Button>
 
 </mvc:View>
