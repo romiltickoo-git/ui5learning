@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta charset="UTF-8">
+      <title>Walkthrough</title>
+      
+<!---------------------------------------------------------------------------------->
+<!-- *----Program no:1 to Understand simple one the basic one----*
+
+    As You can See in the Bootstrap we have use the Module Name: "module:Search/po/index"
+    Which means it refere to index.js file and Search/po is the path of NameSpace which
+    we have given below in the resource root "Search.po" referes to current folder ./ 
+    
+    In the Index.js file we just written a code for alert to check wheather our file 
+    index.js is getting trigger or not.
+   
+   *------- Below is the index.js file code ---------*  
+         sap.ui.define([], function() {
+         "use strict";
+         alert("milly");
+         });
+   *--------------------------------------------------*
+-->
+<!---------------------------------------------------------------------------------->
+      <script id="sap-ui-bootstrap"
+		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_belize"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-compatVersion="edge"
+		data-sap-ui-async="true"      
+        data-sap-ui-onInit="module:Search/po/index"  
+	    data-sap-ui-resourceroots='{
+		"Search.po": "./" 
+        }'>
+	</script>
+   
+
+</head>
+<body id = "content">
+
+
+</body>
+</html>

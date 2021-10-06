@@ -1,0 +1,14 @@
+<mvc:View
+    controllerName="Search.po.controller.App"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+
+<Text text="Purchase order Report1"></Text>
+<Input placeholder="Purchase Order Number1"></Input>
+<Button text="Click" press="onPress"></Button>
+
+</mvc:View>
